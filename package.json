@@ -1,0 +1,36 @@
+{
+  "name": "gitbook-plugin-changyan",
+  "version": "1.0.0",
+  "description": "Giitbook 评论区插件（畅言云评 - https://changyan.kuaizhan.com/）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "changyan",
+    "comment"
+  ],
+  "author": "zhuduotao",
+  "license": "MIT",
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "appId": {
+        "type": "string",
+        "title": "the appId of changyan",
+        "required": false,
+        "default": ""
+      },
+      "conf": {
+        "type": "string",
+        "title": "the conf of changyan",
+        "required": false,
+        "default": ""
+      }
+    }
+  }
+}
